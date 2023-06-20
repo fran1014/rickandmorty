@@ -1,3 +1,15 @@
 .miMargen {
-  margin-top: 120x;
+  margin-top: 120px;
+}
+
+.alive {
+  color: lightseagreen;
+}
+
+.dead {
+  color: tomato;
+}
+
+.unknown {
+  color: gold;
 }
