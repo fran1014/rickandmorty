@@ -13,3 +13,8 @@
 .unknown {
   color: gold;
 }
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}

@@ -1,4 +1,4 @@
-const btnSearch = document.querySelector("btn");
+const btnSearch = document.querySelector("#btn");
 const sectionCharacters = document.querySelector("#characters");
 const inputSearch = document.querySelector("#search");
 
@@ -47,7 +47,7 @@ function printOneCharacter(pCharacter, pDom) {
   const divRow = document.createElement("div");
   divRow.className = "row g-0";
 
-  divRow.innerHTML = ` <figure class="col-md-4">
+  divRow.innerHTML = `<figure class="col-md-4">
   <img src="${pCharacter.image}" class="img-fluid rounded-start" alt="${
     pCharacter.name
   }">
@@ -61,4 +61,8 @@ function printOneCharacter(pCharacter, pDom) {
       } </small></p>
   </div>
 </div>`;
+
+  divCard.appendChild(divRow);
+  article.appendChild(divCard);
+  pDom.appendChild(article);
 }
