@@ -4,58 +4,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rick & Morty</title>
+    <title>Rick&Morty</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/api.js"></script>
   </head>
+
   <body>
-    <header class="bg-dark p-4 fixed-top border-bottom border-warning border-3 shadow">
+    <header
+      class="bg-dark p-4 fixed-top border-bottom border-warning border-3 shadow"
+    >
       <div class="container">
-          <div class="d-flex">
-              <input type="text" class="form-control" placeholder="introduce un nombre" id="search">
-              <button id="btn" class="btn btn-warning ms-2">Buscar</button>
-          </div>
-      </div>
-  </header>
-  <main>
-      <section class="container miMargen">
-          <button id="prev" class="btn btn-warning">PREV</button>
-          <button id="next" class="btn btn-warning">NEXT</button>
-          <div id="characters" class="row g-3 mt-2">
-
-              <article class="col-12 col-md-6 col-xl-4">
-
-                  <div class="card mb-3 shadow">
-                      <div class="row g-0">
-                          <div class="col-md-4">
-                              <img src="..." class="img-fluid rounded-start" alt="...">
-                          </div>
-                          <div class="col-md-8">
-                              <div class="card-body">
-                                  <h5 class="card-title">Nombre del personaje</h5>
-                                  <p class="card-text">Estado: <span class="alive">Vivo</span></p>
-                                  <p class="card-text"><small class="text-body-secondary">Algun texto</small></p>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-          </article>
+        <div class="d-flex">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="introduce un nombre"
+            id="search"
+          />
+          <button id="btn" class="btn btn-warning ms-2">Buscar</button>
         </div>
       </div>
+    </header>
+    <main>
+      <section class="container miMargen">
+        <button id="prev" class="btn btn-warning">PREV</button>
+        <button id="next" class="btn btn-warning">NEXT</button>
+        <div id="characters" class="row g-3 mt-2">
+          <article class="col-12 col-md-6 col-xl-4">
+            <div class="card mb-3 shadow">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="..." class="img-fluid rounded-start" alt="..." />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Nombre del personaje</h5>
+                    <p class="card-text">
+                      Estado: <span class="alive">Vivo</span>
+                    </p>
+                    <p class="card-text">
+                      <small class="text-body-secondary">Algun texto</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
     <footer class="bg-dark p-1 fixed-bottom">
-      <p class="p-2 text-white">Ricky&Morti APP</p>
+      <p class="p-2 text-white">Rick&Morty APP</p>
     </footer>
 
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
     <script src="./js/main.js"></script>
